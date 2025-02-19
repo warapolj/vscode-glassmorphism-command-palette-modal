@@ -112,10 +112,10 @@
 } */
 
 /* Scroll Bar */
-/* .slider {
-    width: 1px !important;
+.slider {
+    width: 2px !important;
     background: white !important;
-} */
+}
 
 /* Tooltip box style */
 /* .monaco-editor-hover,
@@ -192,14 +192,19 @@
 .quick-input-widget {
     transform: translateY(-50%) !important;
     top: 50% !important;
-    box-shadow: 0px 8px 32px rgba(0, 0, 0, .1) !important;
+    box-shadow: 0px 8px 32px rgba(255, 255, 255, 0.061) !important;
     padding: 10px 10px 18px 10px !important;
     background: rgba(255, 255, 255, 0.1) !important;
-    backdrop-filter: blur(10px) !important;
+    backdrop-filter: blur(5px) !important;
     border-radius: 16px !important;
     border: 1px solid rgba(255, 255, 255, 0.2) !important;
     color: #fff !important;
 }
+
+.quick-input-widget .slider {
+    width: 2px !important;
+    background: rgba(255, 255, 255, 0.8) !important;
+} 
 
 .quick-input-list, .quick-input-list .list_id_6 {
     /* min-height: 400px !important; */
@@ -226,7 +231,7 @@
 
 /* Command palette text input */
 .quick-input-filter .monaco-inputbox {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.8) !important;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8) !important;
     border-radius: 0px;
     padding: 5px !important;
     background: transparent !important;
